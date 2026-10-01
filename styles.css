@@ -45,7 +45,7 @@ img:hover {
     box-shadow: 0 8px 20px rgba(3, 105, 161, 0.25);
 }
 #navbar {
-    background-color: #12d08b;
+    background-color: #5dbdcc;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -74,7 +74,7 @@ img:hover {
 }
 
 #navbar ul li a:hover {
-    background-color: #93cb52;
+    background-color: #52c5cb;
     border-radius: 5px;
 }
 
