@@ -11,18 +11,36 @@
 </head>
 <body>
 
-    <!-- Navigační menu -->
-    <nav id="navbar">
-        <div class="logo">
-            Můj <span class="text-primary">koníček</span>
-        </div>
-        <ul>
-            <li><a href="#home">Úvod</a></li>
-            <li><a href="#about">O mně</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-    </nav>
+    <!-- Sémantické záhlaví -->
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                Můj <span class="text-primary">koníček</span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#home">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="nav-text">Úvod</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="nav-text">O mně</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#kontakt">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="nav-text">Kontakt</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hlavní obsah webu -->
     <main class="container">
 
         <!-- Sekce: Úvod -->
@@ -60,6 +78,22 @@
         </section>
 
     </main>
+
+    <!-- Sémantické zápatí -->
+    <footer>
+        <p>&copy; 2026 Můj koníček. Všechna práva vyhrazena.</p>
+        <!-- Validační odkazy W3C -->
+        <div class="validation-links">
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank" title="Validovat HTML">
+                <i class="fa-brands fa-html5 fa-2x"></i>
+                <span>HTML Validátor</span>
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank" title="Validovat CSS">
+                <i class="fa-brands fa-css3-alt fa-2x"></i>
+                <span>CSS Validátor</span>
+            </a>
+        </div>
+    </footer>
 
 </body>
 </html>
