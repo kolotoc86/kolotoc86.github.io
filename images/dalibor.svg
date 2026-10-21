@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1eaff"/>
+      <stop offset="1" stop-color="#ffeaf1"/>
+    </linearGradient>
+    <linearGradient id="laptop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7655e8"/>
+      <stop offset="1" stop-color="#5633bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="360" rx="32" fill="url(#background)"/>
+  <circle cx="290" cy="75" r="27" fill="#ffe28a"/>
+  <path d="m290 58 5 11 12 2-9 8 2 12-10-6-11 6 2-12-9-8 12-2z" fill="#fff"/>
+  <circle cx="65" cy="89" r="7" fill="#ff83b4"/>
+  <circle cx="88" cy="64" r="4" fill="#7655e8"/>
+  <circle cx="303" cy="268" r="8" fill="#ff83b4"/>
+  <rect x="55" y="83" width="250" height="174" rx="18" fill="#27243b"/>
+  <path d="M73 83h214a18 18 0 0 1 18 18v19H55v-19a18 18 0 0 1 18-18z" fill="#39354f"/>
+  <circle cx="76" cy="101" r="4" fill="#ff7598"/>
+  <circle cx="91" cy="101" r="4" fill="#ffd16e"/>
+  <circle cx="106" cy="101" r="4" fill="#76d6a0"/>
+  <rect x="74" y="136" width="13" height="90" rx="6" fill="#39354f"/>
+  <path d="M103 143h43" stroke="#ff83b4" stroke-linecap="round" stroke-width="7"/>
+  <path d="M155 143h77" stroke="#a998ef" stroke-linecap="round" stroke-width="7"/>
+  <path d="M116 164h81" stroke="#ffe28a" stroke-linecap="round" stroke-width="7"/>
+  <path d="M207 164h34" stroke="#e4def5" stroke-linecap="round" stroke-width="7"/>
+  <path d="M116 185h36" stroke="#ff83b4" stroke-linecap="round" stroke-width="7"/>
+  <path d="M162 185h100" stroke="#a998ef" stroke-linecap="round" stroke-width="7"/>
+  <path d="M116 206h66" stroke="#e4def5" stroke-linecap="round" stroke-width="7"/>
+  <path d="M192 206h54" stroke="#ffe28a" stroke-linecap="round" stroke-width="7"/>
+  <path d="M36 257h288l-25 29H61z" fill="url(#laptop)"/>
+  <path d="M146 260h69l-8 11h-53z" fill="#c9baff"/>
+  <path d="M62 287h236" stroke="#4326a2" stroke-linecap="round" stroke-width="5"/>
+</svg>
