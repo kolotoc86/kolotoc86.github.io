@@ -1,0 +1,1 @@
+GOOGLE. Gemini (verze 1.5) [online software]. Mountain View: Google, 2026 [cit. 2026-10-22]. Prompt: „kolotoc86.github.io zjisti mi jestli tato stranka splnuje vsechny podminky [s přiloženým obrázkem seznamu požadavků]“. Dostupné z: https://gemini.google.com
